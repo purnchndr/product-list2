@@ -12,11 +12,20 @@
 }
 
 .image img {
+  width: 95%;
+  transition: all linear 0.2s;
+}
+
+.image img:hover {
   width: 100%;
 }
 
 .image {
   /* background-color: rgb(214, 214, 214); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .title {
