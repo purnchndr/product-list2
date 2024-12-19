@@ -12,14 +12,8 @@ function Products({ list, setList, skip, setSkip, cardClick }) {
 
   useEffect(() => {
     async function getData() {
-      if (list.length != 0 && list.length === skip * batch) {
-        console.log('returning');
-        return;
-      }
-      console.log('Proceeding');
       try {
         setLoading(true);
-        console.log('loading');
         const res = await fetch(
           `https://dummyjson.com/products?limit=${batch}&skip=${
             skip * batch

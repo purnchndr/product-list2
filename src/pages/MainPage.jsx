@@ -10,7 +10,6 @@ function MainPage() {
   const element = useRef(null);
   const cardClick = e => (element.current = e.target);
   element.current && element.current.focus();
-  console.log(element.current);
 
   return (
     <BrowserRouter>
