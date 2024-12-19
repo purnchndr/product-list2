@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-y);
+  padding: 10px 30px;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.navlinks {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.side img {
+  width: 40px;
+}
+
+.side {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}

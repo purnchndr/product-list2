@@ -1,0 +1,9 @@
+.poster {
+  width: 100%;
+  transition: all linear 1s;
+  transform: translate();
+}
+
+.poster img {
+  width: 100%;
+}
