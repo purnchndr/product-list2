@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import style from './Product.module.css';
 
-function Product({ data }) {
+function Product({ data, cardClick }) {
   return (
     <div className={style.product}>
-      <Link to={`/${data.id}`}>
+      <Link to={`/${data.id}`} onClick={cardClick}>
         <div className={style.image}>
           <img src={data.thumbnail} alt={data.title} />
         </div>

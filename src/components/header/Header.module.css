@@ -21,7 +21,13 @@
 }
 
 .side {
-  width: 10%;
+  width: 15%;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+  .navlinks {
+    display: none;
+  }
 }

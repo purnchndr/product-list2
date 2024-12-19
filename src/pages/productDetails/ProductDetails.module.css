@@ -1,0 +1,89 @@
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.leftSide,
+.rightSide {
+  width: 50%;
+  padding: 20px;
+}
+
+.imgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.thumbImgs {
+}
+
+.thumb {
+  width: 80px;
+  margin: 10px 0;
+  box-shadow: 0 0 10px rgb(177, 177, 177);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.mainImage {
+  max-width: 100%;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttons button {
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 40px;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+.add {
+  background-color: #9c9c9c;
+}
+.buy {
+  background-color: var(--color-y);
+}
+
+/* .price {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+} */
+
+.ratings {
+  max-height: 30vh;
+  overflow-y: scroll;
+}
+
+.reviews {
+  background-color: rgb(255, 251, 226);
+  padding: 10px;
+  border-radius: 0.5rem;
+  margin: 10px 0;
+}
+
+.nameAndRating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name {
+  margin: 0;
+  font-weight: bold;
+}
+.comment {
+  margin: 0;
+}
+
+.prices {
+  font-weight: bold;
+}

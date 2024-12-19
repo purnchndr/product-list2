@@ -8,3 +8,10 @@
   width: 100%;
   height: 30vh;
 }
+
+@media screen and (max-width: 1000px) {
+  .poster img {
+    width: 100%;
+    height: 20vh;
+  }
+}
