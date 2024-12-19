@@ -52,13 +52,6 @@
 .buy {
   background-color: var(--color-y);
 }
-
-/* .price {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-} */
-
 .ratings {
   max-height: 30vh;
   overflow-y: scroll;
@@ -86,4 +79,20 @@
 
 .prices {
   font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .details {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .leftSide,
+  .rightSide {
+    width: 100%;
+    padding: 20px;
+  }
+  .buttons button {
+    font-size: 14px;
+  }
 }
